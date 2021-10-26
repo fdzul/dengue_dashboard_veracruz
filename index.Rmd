@@ -9,7 +9,7 @@ cover-image: images/cover.jpg
 
 
 
-```{r, cache=TRUE}
+```{r}
 x <- boldenr::read_dataset_bol(path = "C:/Users/felip/OneDrive/datasets/DGE/arbo/",
                                 dataset = "sinave")
 source('C:/Users/felip/Dropbox/r_developments/r_dashboards/github_pages/test_dashboard/3.Functions/heatmap_confirmados.R')
